@@ -1,0 +1,6 @@
+﻿  functions.c
+  izbornik.c
+  Generating Code...
+C:\Users\student\source\repos\Auto_skola_FM\functions.c(34,9): warning C4033: 'DodavaljeUcenika' must return a value
+C:\Users\student\source\repos\Auto_skola_FM\functions.c(49): warning C4715: 'DodavaljeUcenika': not all control paths return a value
+  Auto_skola_FM.vcxproj -> C:\Users\student\source\repos\Auto_skola_FM\Debug\Auto_skola_FM.exe
