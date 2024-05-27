@@ -1,0 +1,5 @@
+Ime: Fran
+Prezime: Matotek
+Placanje: 150.00
+Broj rata: 12
+Datum predavanja: 6.6.2024
