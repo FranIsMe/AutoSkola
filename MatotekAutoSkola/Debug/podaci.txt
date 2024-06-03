@@ -1,0 +1,18 @@
+Ime: fran
+Prezime: matotek
+Placanje: 1200.00
+Broj rata: 5
+Datum predavanja: 11.5.2024
+-----
+Ime: nikola
+Prezime: miraz
+Placanje: 1400.00
+Broj rata: 8
+Datum predavanja: 12.6.2024
+-----
+Ime: marko
+Prezime: pekic
+Placanje: 1000.00
+Broj rata: 2
+Datum predavanja: 4.11.2024
+-----

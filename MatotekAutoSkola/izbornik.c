@@ -23,7 +23,8 @@ int GLizbornik() {
 		printf("3. Izmjena podataka\n");
 		printf("4. Uplate ucenika\n");
 		printf("5. Pretrazivanje ucenika\n");
-		printf("6. Exit\n");
+		printf("6. Sortiranje ucenika\n");
+		printf("7. Exit\n");
 		printf("Unesite opciju: ");
 		scanf("%d", &choice);
 

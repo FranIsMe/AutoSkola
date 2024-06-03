@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "Header.h"
 
 
@@ -13,19 +14,19 @@ int izbornikSortiranja()
 
 
 	while (1) {
-		printf("Opcije upravljanja bazom podataka auto skole:\n");
+		printf("Opcije sortiranja ucenika:\n");
 		printf("1. Sortiranje abecedno\n");
 		printf("2. Sortiranje po iznosu placanja\n");
-		printf("3. Exit\n");
+		printf("3. Back\n");
 		printf("Unesite opciju: ");
 		scanf("%d", &choice);
 
 		switch (choice) {
 		case ABECEDNO:
-			sortiranjeAbecedno();
+			sortiranjeAbecedno("podaci.txt");
 			break;
 		case PLACANJE:
-			sortiranjePlacanja();
+			sortiranjePlacanja("podaci.txt");
 			break;
 		case EXIT:
 			printf("Izlazenje iz programa\n");

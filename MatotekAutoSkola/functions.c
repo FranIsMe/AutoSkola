@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "Header.h"
 
 
@@ -402,9 +403,19 @@ void PretrazivanjeUcenika() {
 	linija = NULL;
 }
 // sortiranje
-int sortiranjePlacanja() {
 
-}
-int  sortiranjeAbecedno() {
 
+int usporediPlacanje(const void* a, const void* b) {
+	const UCENIK* ucenikA = (const UCENIK*)a;
+	const UCENIK* ucenikB = (const UCENIK*)b;
+
+	if (ucenikA->placanje < ucenikB->placanje) {
+		return 1;
+	}
+	else if (ucenikA->placanje > ucenikB->placanje) {
+		return -1;
+	}
+	else {
+		return 0;
+	}
 }
