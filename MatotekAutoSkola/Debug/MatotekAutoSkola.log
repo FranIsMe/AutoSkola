@@ -1,0 +1,9 @@
+﻿  Sortiranje.c
+  functions.c
+  izbornik.c
+  main.c
+  Generating Code...
+C:\Users\student\source\repos\MatotekAutoSkola\functions.c(83,13): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\student\source\repos\MatotekAutoSkola\functions.c(407): warning C4716: 'sortiranjePlacanja': must return a value
+C:\Users\student\source\repos\MatotekAutoSkola\functions.c(410): warning C4716: 'sortiranjeAbecedno': must return a value
+  MatotekAutoSkola.vcxproj -> C:\Users\student\source\repos\MatotekAutoSkola\Debug\MatotekAutoSkola.exe
