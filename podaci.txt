@@ -1,0 +1,8 @@
+-----
+-----
+Ime: marko
+Prezime: pekic
+Placanje: 300.00
+Broj rata: 2
+Datum predavanja: 4.4.2024
+-----
